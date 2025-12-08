@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from models import Person
 
 app = FastAPI(title="Lappiz Demo Api", version="1.0.0")
 
