@@ -8,6 +8,8 @@ Está construido con FastAPI y usa persistencia en memoria para un MVP.
 Backend desplegado en Render:  
 [demo en render](https://lappiz-demo-backend.onrender.com/)
 
+[Frontend desplegado en Vercel](https://lappiz-demo-frontend.vercel.app/)
+
 ## Installation
 
 1. Clona el repositorio:
