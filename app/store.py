@@ -11,3 +11,6 @@ def get_people() -> List[Person]:
 def add_person(person: Person) -> Person:
     __people.append(person)
     return person
+
+def email_exists(correo: str) -> bool:
+    return any(person.correo.lower() == correo.lower() for person in __people)
