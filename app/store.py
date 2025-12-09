@@ -1,5 +1,5 @@
 from typing import List
-from models import Person
+from .models import Person
 
 __people: List[Person] = [
     Person(nombre="Juan guillermo", correo="alafresh16@gmail.com")

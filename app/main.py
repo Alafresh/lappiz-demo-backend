@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException, status
-from models import Person, PersonCreate
-from store import get_people, add_person, email_exists
+from .models import Person, PersonCreate
+from .store import get_people, add_person, email_exists
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Lappiz Demo Api", version="1.0.0")
