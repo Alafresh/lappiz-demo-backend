@@ -7,7 +7,7 @@ app = FastAPI(title="Lappiz Demo Api", version="1.0.0")
 
 origins = [
     "http://localhost:4200",
-    "*"
+    "https://lappiz-demo-frontend.vercel.app/"
 ]
 
 app.add_middleware(
