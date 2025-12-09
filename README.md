@@ -34,6 +34,6 @@ $ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 ## URLs utiles
 
-* API: http://127.0.0.1:8000/
-* Swagger: http://127.0.0.1:8000/docs
-* OpenAPI JSON: http://127.0.0.1:8000/openapi.json
+* [API](https://lappiz-demo-backend.onrender.com/)
+* [Swagger](https://lappiz-demo-backend.onrender.com/docs)
+* [OpenAPI JSON](https://lappiz-demo-backend.onrender.com/openapi.json)
